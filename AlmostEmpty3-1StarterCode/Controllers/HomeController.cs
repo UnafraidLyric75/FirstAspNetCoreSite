@@ -19,5 +19,10 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         {
             return View();
         }
+
+        public IActionResult Settings()
+        {
+            return View();
+        }
     }
 }
